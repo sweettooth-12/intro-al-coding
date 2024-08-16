@@ -3,13 +3,69 @@ h1 {
     text-align: center;
 }
 
+h1 span {
+    color: black;
+    font-size: 25px;
+}
+
 header {
     background-color: darkgreen;
     padding: 1rem;
 }
 
+header nav {
+    text-align: right;
+}
+
+header nav a {
+    text-decoration: none;
+    color: azure;
+    margin: .5rem;
+}
+
+header nav a:hover{
+    color:chartreuse;
+    background-color: blueviolet;
+    padding: 1rem;
+}
+
 .principal p {
     color: orange;
+}
+
+.principal img {
+    width: 100%;
+    margin-left: 5rem;
+    margin-right: 5rem;    
+}
+
+.secundaria {
+    display: flex;
+}
+
+.secundaria div {
+    background-color: palevioletred;
+    margin: 2rem;
+}
+
+.secundaria img {
+    width: 50%;
+    margin-left: 2.8rem;
+    margin-right: 2.8rem;
+    border-radius: 100%;
+}
+
+.secundaria h2, p {
+    text-align: center;
+}
+
+.secundaria img {
+    width: 50%;
+}
+
+footer {
+    background-color: chocolate;
+    padding: 1rem;
 }
 
 footer p {
