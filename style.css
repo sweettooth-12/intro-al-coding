@@ -1,0 +1,17 @@
+h1 {
+    color: crimson;
+    text-align: center;
+}
+
+header {
+    background-color: darkgreen;
+    padding: 1rem;
+}
+
+.principal p {
+    color: orange;
+}
+
+footer p {
+    text-align: center;
+}
