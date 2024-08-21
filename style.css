@@ -29,14 +29,19 @@ header nav a:hover{
     padding: 1rem;
 }
 
+#titulo {
+    color: plum;
+}
+
 .principal p {
     color: orange;
+    text-align: center;
+    padding-left: 15rem;
+    padding-right: 15rem;
 }
 
 .principal img {
-    width: 100%;
-    margin-left: 5rem;
-    margin-right: 5rem;    
+    width: 100%;   
 }
 
 .secundaria {
@@ -46,21 +51,16 @@ header nav a:hover{
 .secundaria div {
     background-color: palevioletred;
     margin: 2rem;
+    padding: 3rem;
 }
 
 .secundaria img {
     width: 50%;
-    margin-left: 2.8rem;
-    margin-right: 2.8rem;
     border-radius: 100%;
 }
 
 .secundaria h2, p {
     text-align: center;
-}
-
-.secundaria img {
-    width: 50%;
 }
 
 footer {
